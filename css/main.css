@@ -1,0 +1,183 @@
+body{
+	
+}
+.Anath {
+	width: 80%;
+	margin-left: 170px;
+	margin-top: 80px;
+}
+
+
+	
+
+#navbar {
+position: absolute;
+width: 300px;
+height: 300px;
+left: 25%;
+margin-top: -64%;}
+
+	
+
+
+
+.titles {
+
+	font-family:  'Pathway Gothic One', sans-serif;
+	color: grey;
+	text-align: left;
+
+}
+
+.titles li {
+	font-size: 26px;
+	transition: all 0.5s;
+}
+
+.titles li:hover {
+	font-size: 35px;
+	opacity: 0.56;
+}
+
+
+.Anath {
+	position: relative;
+}
+
+.Anath img {
+	width: 50%;
+}
+
+
+
+.social-links{ 
+width: 316px;
+left: 50%;
+position: absolute;
+top: 58%;
+
+}
+
+.social-links a:hover {
+	opacity: 0.57;
+}
+
+a.social {
+	width: 20px;
+
+}
+
+a.social img {
+	width:76px;
+	height:57px;
+	
+
+}
+
+
+
+a.face {
+	width: 20px;
+
+}
+
+a.face img {
+
+	width:76px;
+	height:57px;
+
+}
+
+a.git {
+	width: 20px;
+
+}
+
+a.git img {
+	width:76px;
+	height:57px;
+
+}
+
+a.mail {
+	width: 20px;
+
+}
+
+a.mail img {
+	width:76px;
+	height:57px;
+
+}
+
+
+#skul {
+	height: 800px;
+	background: rgb(214, 214, 237);
+	
+	
+}
+
+#works {
+	height: 800px;
+	background-color: rgb(246, 208, 182);
+}
+
+#makers {
+	height: 800px;
+	background-color: rgb(222, 239, 199);
+}
+
+#perso {
+	height: 800px;
+	background-color: rgb(146, 199, 200);
+}
+
+#contact {
+	height: 800px;
+	background-color: rgb(222, 175, 210);
+}
+/*.graphic {
+	height: 100px;
+	width: 100%;
+	background-color: rgb(115, 185, 189);
+	
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
