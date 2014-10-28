@@ -1,4 +1,5 @@
 body{
+background-color: #f5f4f2;
 	
 }
 .Anath {
@@ -46,13 +47,20 @@ margin-top: -64%;}
 
 .Anath img {
 	width: 50%;
+
+}
+.Anath img:hover {
+	background-image: red;
+	/*opacity: 0.2;*/
+
+	
 }
 
 
 
 .social-links{ 
-width: 316px;
-left: 50%;
+width: 500px;
+left: 52%;
 position: absolute;
 top: 58%;
 
@@ -62,20 +70,22 @@ top: 58%;
 	opacity: 0.57;
 }
 
-a.social {
-	width: 20px;
 
+i.fa {
+	padding-right:20px;
+	color:rgb(43, 135, 219);
+	font-size:66px;
 }
 
-a.social img {
+/*a.social img {
 	width:76px;
 	height:57px;
 	
 
-}
+}*/
 
 
-
+/*
 a.face {
 	width: 20px;
 
@@ -97,9 +107,9 @@ a.git img {
 	width:76px;
 	height:57px;
 
-}
+}*/
 
-a.mail {
+/*a.mail {
 	width: 20px;
 
 }
@@ -108,25 +118,131 @@ a.mail img {
 	width:76px;
 	height:57px;
 
-}
+}*/
 
 
-#skul {
-	height: 800px;
-	background: rgb(214, 214, 237);
+#skul img{
+	width:20%;
+
 	
-	
+	}
+
+/*#works {
+	height: 800px;
+	}*/
+
+.contenu {
+	font-family: 'Lobster', cursive;
+	padding:10%;
+
+}
+.contenu h1 {
+	font-size: 60px;
+}
+.contenu a {
+	color:rgb(192, 96, 96);
+	text-align: center;
 }
 
-#works {
-	height: 800px;
-	background-color: rgb(246, 208, 182);
+.contenu a:hover {
+	color:red;
 }
+table.contenu{
+	border-spacing: 50px;
+}
+
+/*.posters{
+	width:250px;
+	height:300px;
+	float:left;
+	
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-align: center;
+	cursor:pointer;
+
+}
+.posters a{
+	color:rgb(192, 96, 96);
+}
+.posters a:hover {
+	color:red;
+}
+.graphic{
+	width:250px;
+	height:300px;
+	float:left;
+
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-align: center;
+	cursor:pointer;
+
+}
+.graphic a{
+	color:rgb(192, 96, 96);
+}
+.graphic a:hover {
+	color:red;
+}
+.layout{
+	width:250px;
+	height:300px;
+	float:left;
+	
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-align: center;
+	
+	cursor:pointer;
+}
+.layout a{
+	color:rgb(192, 96, 96);
+}
+.layout a:hover {
+	color:red;
+}
+.packaging{
+	width:250px;
+	height:300px;
+	float:left;
+	
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding-right: 70px;
+	cursor:pointer;
+}
+
+.packaging a{
+	color:rgb(192, 96, 96);
+}
+.packaging a:hover {
+	color:red;
+}
+.advertising{
+	width:250px;
+	height:300px;
+	float:left;
+	
+	font-family: 'Lobster', cursive;
+	
+	font-size: 40px;
+	text-align: center;
+	cursor:pointer;
+
+}
+.advertising a{
+	color:rgb(192, 96, 96);
+}
+.advertising a:hover {
+	color:red;
+}*/
+
 
 #makers {
 	height: 800px;
-	background-color: rgb(222, 239, 199);
-}
+	}
 
 #perso {
 	height: 800px;
@@ -137,47 +253,75 @@ a.mail img {
 	height: 800px;
 	background-color: rgb(222, 175, 210);
 }
-/*.graphic {
-	height: 100px;
-	width: 100%;
-	background-color: rgb(115, 185, 189);
-	
+.meslogo img{
+	width:50%;
 }
-*/
+.meslogo{
+	padding: 7%;
+}
+.back {
+	position:absolute;
+}
+.back img{
+	width: 11%;
+	/*float: left;*/
+}
+.back img:hover{
+	width:15%;
+	opacity:0.4;
+}
+.mesposter img{
+	width:70%;
+}
+.mesposter{
+	padding: 7%;
+}
+.meschart img{
+	text-align: center;
+	width:80%;
+} 
+.meschart {
+	padding-left:20%;
+	padding-right:20%;
+	padding-bottom:20%;
+	padding-top:7%;
 
+}
+.messcreen{
+	padding:5%;
+}
+.messcreen img{
+	width:70%;
+}
+table td{
+	text-align:center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mespack img{
+	width:100%;
+	text-align: center;
+}
+.mespack{
+	padding:8%;
+}
+.meslayout {
+	padding:10%;
+}
+.meslayout img{
+	width:90%;
+}
+#skul {
+	height:800px;
+}
+#skul img{
+	width:50%;
+}
+i.fa.fa-cloud-download{
+	font-size: 100px;
+}
+.mead{
+	padding:8%;
+}
+.mead img{
+	width:90%;
+}

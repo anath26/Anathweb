@@ -1,4 +1,4 @@
-
+ $(document).ready(function(){
 var w = 1280,
     h = 800;
 
@@ -80,6 +80,6 @@ function collide(node) {
         || y1 > ny2
         || y2 < ny1;
   };
-}
+)};
 
 
